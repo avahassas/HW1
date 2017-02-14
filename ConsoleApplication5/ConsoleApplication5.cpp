@@ -9,6 +9,7 @@ int main()
 	int var;
 	int var2
 
+
     return 0;
 }
 
