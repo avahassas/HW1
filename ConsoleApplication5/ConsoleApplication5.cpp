@@ -8,7 +8,16 @@ using namespace std;
 
 int main()
 {
-	int 
+	double begbal;
+	double deposit;
+	double withdrawl;
+	double checks;
+	double endbal;
+
+	cout << "Please enter an account balance"; 
+	cin >> begbal;
+
+
 
 
     return 0;
