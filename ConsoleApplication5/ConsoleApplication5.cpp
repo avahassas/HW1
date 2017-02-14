@@ -26,13 +26,13 @@ int main()
 
 	cout << "(W)ithdrawl, (D)eposit, (C)heck, (Q)uit"; 
 	cin >> transaction;
-	do {
+
 		switch (transaction)
 		{
 			case 'W':
 				cout << "Please enter Withdrawl Amount" << endl;
 				cin >> withdrawl;
-				break; 
+				break;
 
 			case 'D':
 				cout << "Please enter Deposit Amount" << endl;
@@ -43,12 +43,12 @@ int main()
 				cout << "Please enter Check Amount" << endl;
 				cin >> checks;
 				break;
+
+			case 'Q':
+				cout << "Goodbye" << endl;
+				break;
 		}
-	} while (transaction != 'q');
 	 
-
-
-
 
     return 0;
 }
