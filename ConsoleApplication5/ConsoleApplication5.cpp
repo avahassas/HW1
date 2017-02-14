@@ -20,7 +20,7 @@ int main()
 
 	do ( 
 		
-	
+
 
 	cout << "Current Balance:" << begbal << endl; 
 
