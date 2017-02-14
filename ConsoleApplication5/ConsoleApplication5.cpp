@@ -13,9 +13,23 @@ int main()
 	double withdrawl;
 	double checks;
 	double endbal;
+	string transaction; 
 
 	cout << "Please enter an account balance"; 
 	cin >> begbal;
+
+	do ( 
+		
+	
+
+	cout << "Current Balance:" << begbal << endl; 
+
+	cout << "Enter Transactions:" << endl;
+
+	cout << "(W)ithdrawl, (D)eposit, (C)heck, (Q)uit"; 
+	cin >> transaction; 
+
+	)while(transaction != 'q')
 
 
 
