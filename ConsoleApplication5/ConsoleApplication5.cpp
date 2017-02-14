@@ -13,23 +13,39 @@ int main()
 	double withdrawl;
 	double checks;
 	double endbal;
-	string transaction; 
+	char transaction; 
 
 	cout << "Please enter an account balance"; 
 	cin >> begbal;
 
-	do ( 
-		
-
+	
 
 	cout << "Current Balance:" << begbal << endl; 
 
 	cout << "Enter Transactions:" << endl;
 
 	cout << "(W)ithdrawl, (D)eposit, (C)heck, (Q)uit"; 
-	cin >> transaction; 
+	cin >> transaction;
+	do {
+		switch (transaction)
+		{
+			case 'W':
+				cout << "Please enter Withdrawl Amount" << endl;
+				cin >> withdrawl;
+				break; 
 
-	)while(transaction != 'q')
+			case 'D':
+				cout << "Please enter Deposit Amount" << endl;
+				cin >> deposit;
+				break;
+
+			case 'C':
+				cout << "Please enter Check Amount" << endl;
+				cin >> checks;
+				break;
+		}
+	} while (transaction != 'q');
+	 
 
 
 
