@@ -2,13 +2,13 @@
 //
 
 #include "stdafx.h"
-
+#include <string>
+#include <iostream>
+using namespace std; 
 
 int main()
 {
-	int var;
-	int var2
-
+	int 
 
 
     return 0;
