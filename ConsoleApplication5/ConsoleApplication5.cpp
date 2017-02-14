@@ -26,6 +26,7 @@ int main()
 
 	cout << "(W)ithdrawl, (D)eposit, (C)heck, (Q)uit"; 
 	cin >> transaction;
+	transaction = toupper(transaction);
 
 		switch (transaction)
 		{
